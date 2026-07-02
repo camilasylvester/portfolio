@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Camila Sylvester — Web Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display:ital@1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>DISPONIBLE PARA NUEVOS PROYECTOS&nbsp;</span><span>◆</span><span>&nbsp;FRONTEND&nbsp;</span><span>◆</span><span>&nbsp;BACKEND&nbsp;</span><span>◆</span><span>&nbsp;FULL STACK&nbsp;</span><span>◆</span>
+      <span>DISPONIBLE PARA NUEVOS PROYECTOS&nbsp;</span><span>◆</span><span>&nbsp;FRONTEND&nbsp;</span><span>◆</span><span>&nbsp;BACKEND&nbsp;</span><span>◆</span><span>&nbsp;FULL STACK&nbsp;</span><span>◆</span>
+    </div>
+  </div>
+
+  <header class="nav">
+    <a href="#top" class="nav__logo">camila<span class="dot">.</span></a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#work">trabajo</a>
+      <a href="#about">sobre mí</a>
+      <a href="#contact">contacto</a>
+    </nav>
+    <a href="#contact" class="btn btn--small nav__cta">hablemos ↗</a>
+    <button class="nav__burger" id="navBurger" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+
+    <section class="hero" id="top">
+      <div class="hero__inner">
+        <p class="eyebrow">Portfolio 2026</p>
+        <h1 class="hero__title">
+          HOLA, SOY<br>
+          CAMILA <span class="accent">—</span>
+        </h1>
+        <p class="hero__subtitle">construyo <span class="script">plataformas web</span> prolijas, rápidas y con carácter.</p>
+        <div class="hero__actions">
+          <a href="#work" class="btn btn--light">ver proyectos</a>
+          <a href="#contact" class="btn btn--outline">contactarme</a>
+        </div>
+      </div>
+      <div class="hero__stripe"></div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="section-head">
+        <p class="eyebrow eyebrow--dark">selección</p>
+        <h2 class="section-title">PROYECTOS <span class="script">recientes</span></h2>
+      </div>
+
+      <div class="work__grid">
+
+        <article class="project">
+          <div class="project__frame">
+            <div class="project__bar">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="project__screen project__screen--1">
+              <p class="project__placeholder">captura del proyecto</p>
+            </div>
+          </div>
+          <div class="project__info">
+            <h3>Nombre del Proyecto 01</h3>
+            <p>E-commerce · React · Node</p>
+            <a href="#" class="project__link">visitar sitio ↗</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__frame">
+            <div class="project__bar">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="project__screen project__screen--2">
+              <p class="project__placeholder">captura del proyecto</p>
+            </div>
+          </div>
+          <div class="project__info">
+            <h3>Nombre del Proyecto 02</h3>
+            <p>Landing page · Vite · Tailwind</p>
+            <a href="#" class="project__link">visitar sitio ↗</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__frame">
+            <div class="project__bar">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="project__screen project__screen--3">
+              <p class="project__placeholder">captura del proyecto</p>
+            </div>
+          </div>
+          <div class="project__info">
+            <h3>Nombre del Proyecto 03</h3>
+            <p>Dashboard · TypeScript · API</p>
+            <a href="#" class="project__link">visitar sitio ↗</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <div class="banner">
+      <p class="banner__text">PENSADO PARA <span class="script">VER</span>, CONSTRUIDO PARA <span class="script">DURAR</span></p>
+    </div>
+
+    <section class="about" id="about">
+      <div class="about__visual">
+        <div class="about__frame"></div>
+      </div>
+      <div class="about__content">
+        <p class="eyebrow eyebrow--dark">quién soy</p>
+        <h2 class="section-title">UN POCO <span class="script">sobre mí</span></h2>
+        <p class="about__text">
+          Soy desarrolladora web. Me gusta transformar ideas en sitios rápidos,
+          claros y con identidad propia — desde la primera línea de código hasta
+          el deploy. (Reemplazá este texto con tu bio real.)
+        </p>
+        <ul class="tags">
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Tailwind</li>
+          <li>TypeScript</li>
+          <li>Vite</li>
+          <li>Figma</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="steps">
+      <div class="section-head">
+        <p class="eyebrow eyebrow--dark">proceso</p>
+        <h2 class="section-title">CÓMO <span class="script">trabajo</span></h2>
+      </div>
+      <div class="steps__grid">
+        <div class="step">
+          <span class="step__num">01</span>
+          <h3>Descubrir</h3>
+          <p>Entiendo el objetivo, el usuario y el alcance real del proyecto.</p>
+        </div>
+        <div class="step">
+          <span class="step__num">02</span>
+          <h3>Construir</h3>
+          <p>Desarrollo con código limpio, componentes reutilizables y buen performance.</p>
+        </div>
+        <div class="step">
+          <span class="step__num">03</span>
+          <h3>Entregar</h3>
+          <p>Pulido, testing y deploy — con espacio para iterar después.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-big" id="contact">
+      <h2 class="cta-big__title">HABLEMOS</h2>
+      <p class="cta-big__subtitle">¿Tenés un proyecto en mente?</p>
+      <a href="mailto:camilasylvester@gmail.com" class="btn btn--light">escribime ↗</a>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Camila Sylvester</p>
+    <div class="footer__socials">
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Instagram</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
