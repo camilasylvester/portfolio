@@ -257,6 +257,16 @@ ul { list-style: none; margin: 0; padding: 0; }
   color: rgba(31, 26, 21, 0.6);
   font-size: 0.9rem;
 }
+.project__desc {
+  line-height: 1.5;
+}
+.project__stack {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  color: var(--red);
+}
 .project__link {
   font-weight: 700;
   font-size: 0.9rem;
