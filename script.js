@@ -28,12 +28,28 @@ const projects = {
       </ul>
     `,
   },
-  "proyecto-02": {
-    title: "Nombre del Proyecto 02",
-    stack: "Landing page · Vite · Tailwind",
+  "peugeot-promo": {
+    title: "Mundial 2026 — Promo Interactiva",
+    stack: "HTML5 · CSS3 · JavaScript vanilla · Supabase (PostgreSQL) · Cloudflare Workers · Git/GitHub",
     images: [],
-    link: "#",
-    descriptionHTML: `<p>Todavía no cargamos el detalle de este proyecto. Contame de qué se trata y lo completo acá.</p>`,
+    link: "https://peugeot-promo.camilasylvester.workers.dev",
+    descriptionHTML: `
+      <p>Plataforma de registro y juego para una campaña promocional de Peugeot Argentina vinculada al Mundial 2026. Los usuarios se registran, patean un penal virtual y duplican sus chances de ganar una experiencia Premium al Norte Argentino.</p>
+      <p><strong>Mi rol:</strong> fullstack + diseño UI — construí todo desde cero: frontend, lógica del juego, integración con base de datos y deploy.</p>
+      <p>Repliqué esta misma plataforma para <strong>Jeep/RAM, Citroën y Fiat</strong> — 4 versiones distintas del juego, cada una con su propia identidad de marca.</p>
+      <p><strong>Lo más destacado:</strong></p>
+      <ul>
+        <li>Formulario multi-paso con validación (4-5 pasos según provincia).</li>
+        <li>Juego de penal interactivo con animación de arquero, pelota y resultado aleatorio.</li>
+        <li>Integración con Supabase para guardar registros en tiempo real.</li>
+        <li>Lógica anti-duplicados por patente (consulta a la DB antes de avanzar).</li>
+        <li>Bloqueo de juego post-resultado (no puede volver a jugar).</li>
+        <li>Imágenes optimizadas a AVIF (90% menos de peso).</li>
+        <li>Dashboard interno con contraseña, filtros por marca y exportación CSV.</li>
+        <li>Red de 100+ concesionarios de todo el país.</li>
+      </ul>
+      <p><a href="https://github.com/camilasylvester/peugeot-promo" target="_blank" rel="noopener">Ver repo en GitHub ↗</a></p>
+    `,
   },
   "proyecto-03": {
     title: "Nombre del Proyecto 03",
