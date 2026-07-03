@@ -306,23 +306,6 @@ ul { list-style: none; margin: 0; padding: 0; }
   border-bottom: 2px solid var(--red);
 }
 
-/* Banner */
-.banner {
-  background: var(--ink);
-  padding: 2.5rem 0;
-  overflow: hidden;
-}
-.banner__text {
-  font-family: var(--font-display);
-  color: var(--cream);
-  font-size: clamp(1.4rem, 4vw, 2.6rem);
-  text-align: center;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 0 5%;
-}
-.banner__text .script { color: #E8B7AE; }
-
 /* About */
 .about {
   display: grid;
@@ -336,8 +319,14 @@ ul { list-style: none; margin: 0; padding: 0; }
 .about__frame {
   aspect-ratio: 1;
   border-radius: 16px;
-  background: repeating-linear-gradient(60deg, var(--cream-soft), var(--cream-soft) 14px, var(--red) 14px, var(--red) 16px);
+  overflow: hidden;
+  background: var(--cream-soft);
   border: 2px solid var(--ink);
+}
+.about__frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .about__text {
   font-size: 1.1rem;
