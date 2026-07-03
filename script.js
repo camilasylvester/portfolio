@@ -57,12 +57,25 @@ const projects = {
       <p><a href="https://github.com/camilasylvester/peugeot-promo" target="_blank" rel="noopener">Ver repo en GitHub ↗</a></p>
     `,
   },
-  "proyecto-03": {
-    title: "Nombre del Proyecto 03",
-    stack: "Dashboard · TypeScript · API",
+  "ingram-watchparty": {
+    title: "Watch Party + Torneo de Futbolín — Ingram Micro & Microsoft",
+    stack: "HTML5 · CSS3 (responsive, container queries) · JavaScript vanilla · Supabase (PostgreSQL + RLS) · Vercel · Cloudflare · Git/GitHub",
     images: [],
-    link: "#",
-    descriptionHTML: `<p>Todavía no cargamos el detalle de este proyecto. Contame de qué se trata y lo completo acá.</p>`,
+    link: "https://www.ingrammicro-watchparty.com",
+    descriptionHTML: `
+      <p>Plataforma web para un evento corporativo: una landing de registro de invitados y una trivia interactiva para tótem táctil, para el evento "Watch Party + Torneo de Futbolín" de Ingram Micro × Microsoft (Mundial 2026).</p>
+      <p><strong>Mi rol:</strong> desarrollo full-stack + maquetado. Construí toda la parte técnica de punta a punta: frontend, integración con base de datos, panel de administración y deploy. El diseño (Key Visual) lo proveyó el equipo de diseño; yo lo maqueté y llevé a código respetando identidad visual, tipografía y paleta.</p>
+      <p><strong>Lo más destacado:</strong></p>
+      <ul>
+        <li>Formulario de registro conectado a Supabase en tiempo real.</li>
+        <li>Panel admin en vivo con auto-refresh, buscador, filtros y export a CSV.</li>
+        <li>Detección automática mobile/desktop (versiones dedicadas).</li>
+        <li>Registro mobile en flujo multi-paso (wizard) + modales de éxito.</li>
+        <li>Trivia de 60 preguntas (Mundial + Microsoft) con orden intercalado cíclico, cartel de resultado semi-transparente y modo kiosko touch (1080×1920).</li>
+        <li>Optimización de imágenes (de ~3–8 MB a ~400 KB) para carga rápida.</li>
+        <li>Configuración de dominio propio con SSL (Cloudflare → Vercel).</li>
+      </ul>
+    `,
   },
 };
 
