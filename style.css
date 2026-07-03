@@ -264,6 +264,9 @@ ul { list-style: none; margin: 0; padding: 0; }
   height: 100%;
   object-fit: cover;
   object-position: top;
+  -webkit-user-drag: none;
+  user-select: none;
+  pointer-events: none;
 }
 .project__screen--1 { background: repeating-linear-gradient(45deg, #EFE4C9, #EFE4C9 12px, #E3D3A9 12px, #E3D3A9 24px); }
 .project__screen--2 { background: repeating-linear-gradient(135deg, #F4ECDA, #F4ECDA 12px, #E8B7AE 12px, #E8B7AE 24px); }
