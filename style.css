@@ -311,28 +311,6 @@ ul { list-style: none; margin: 0; padding: 0; }
   font-weight: 600;
 }
 
-/* Steps */
-.steps { padding-bottom: 6rem; }
-.steps__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 2rem;
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 5%;
-}
-.step {
-  border-top: 3px solid var(--ink);
-  padding-top: 1.2rem;
-}
-.step__num {
-  font-family: var(--font-display);
-  font-size: 2rem;
-  color: var(--red);
-}
-.step h3 { margin: 0.4rem 0; font-size: 1.2rem; }
-.step p { margin: 0; color: rgba(31, 26, 21, 0.65); font-size: 0.95rem; }
-
 /* CTA big */
 .cta-big {
   background: var(--red);
