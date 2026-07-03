@@ -60,7 +60,11 @@ const projects = {
   "ingram-watchparty": {
     title: "Watch Party + Torneo de Futbolín — Ingram Micro & Microsoft",
     stack: "HTML5 · CSS3 (responsive, container queries) · JavaScript vanilla · Supabase (PostgreSQL + RLS) · Vercel · Cloudflare · Git/GitHub",
-    images: [],
+    images: [
+      "assets/ingram-1-hero.jpg",
+      "assets/ingram-2-admin.jpg",
+      "assets/ingram-3-mobile.jpg",
+    ],
     link: "https://www.ingrammicro-watchparty.com",
     descriptionHTML: `
       <p>Plataforma web para un evento corporativo: una landing de registro de invitados y una trivia interactiva para tótem táctil, para el evento "Watch Party + Torneo de Futbolín" de Ingram Micro × Microsoft (Mundial 2026).</p>
