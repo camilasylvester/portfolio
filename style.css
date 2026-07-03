@@ -256,21 +256,20 @@ ul { list-style: none; margin: 0; padding: 0; }
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--cream-soft);
+  background: #0f0c09;
   overflow: hidden;
 }
 .project__screen img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: top;
+  object-fit: contain;
   -webkit-user-drag: none;
   user-select: none;
   pointer-events: none;
 }
-.project__screen--1 { background: repeating-linear-gradient(45deg, #EFE4C9, #EFE4C9 12px, #E3D3A9 12px, #E3D3A9 24px); }
-.project__screen--2 { background: repeating-linear-gradient(135deg, #F4ECDA, #F4ECDA 12px, #E8B7AE 12px, #E8B7AE 24px); }
-.project__screen--3 { background: repeating-linear-gradient(90deg, #F4ECDA, #F4ECDA 12px, #C9D3C1 12px, #C9D3C1 24px); }
+.project__screen--1:has(.project__placeholder) { background: repeating-linear-gradient(45deg, #EFE4C9, #EFE4C9 12px, #E3D3A9 12px, #E3D3A9 24px); }
+.project__screen--2:has(.project__placeholder) { background: repeating-linear-gradient(135deg, #F4ECDA, #F4ECDA 12px, #E8B7AE 12px, #E8B7AE 24px); }
+.project__screen--3:has(.project__placeholder) { background: repeating-linear-gradient(90deg, #F4ECDA, #F4ECDA 12px, #C9D3C1 12px, #C9D3C1 24px); }
 .project__placeholder {
   font-size: 0.75rem;
   letter-spacing: 0.1em;
