@@ -58,14 +58,15 @@
       <div class="work__grid">
 
         <article class="project">
-          <div class="project__frame">
+          <button class="project__frame" data-project="mopar" aria-label="Ver más de Campaña Lubricantes MOPAR 2026">
             <div class="project__bar">
               <span></span><span></span><span></span>
             </div>
             <div class="project__screen project__screen--1">
               <img src="assets/mopar-hero.webp" alt="Campaña Lubricantes MOPAR 2026 — pantalla principal">
             </div>
-          </div>
+            <span class="project__expand">ver más ⤢</span>
+          </button>
           <div class="project__info">
             <h3>Campaña Lubricantes MOPAR 2026</h3>
             <p class="project__desc">Plataforma para la campaña de lubricantes MOPAR (Stellantis Argentina): concesionarios de Jeep, RAM, Fiat, Peugeot y Citroën suben evidencia POP y los clientes registran sus cambios de aceite para el sorteo.</p>
@@ -75,14 +76,15 @@
         </article>
 
         <article class="project">
-          <div class="project__frame">
+          <button class="project__frame" data-project="proyecto-02" aria-label="Ver más de Nombre del Proyecto 02">
             <div class="project__bar">
               <span></span><span></span><span></span>
             </div>
             <div class="project__screen project__screen--2">
               <p class="project__placeholder">captura del proyecto</p>
             </div>
-          </div>
+            <span class="project__expand">ver más ⤢</span>
+          </button>
           <div class="project__info">
             <h3>Nombre del Proyecto 02</h3>
             <p>Landing page · Vite · Tailwind</p>
@@ -91,14 +93,15 @@
         </article>
 
         <article class="project">
-          <div class="project__frame">
+          <button class="project__frame" data-project="proyecto-03" aria-label="Ver más de Nombre del Proyecto 03">
             <div class="project__bar">
               <span></span><span></span><span></span>
             </div>
             <div class="project__screen project__screen--3">
               <p class="project__placeholder">captura del proyecto</p>
             </div>
-          </div>
+            <span class="project__expand">ver más ⤢</span>
+          </button>
           <div class="project__info">
             <h3>Nombre del Proyecto 03</h3>
             <p>Dashboard · TypeScript · API</p>
@@ -108,6 +111,26 @@
 
       </div>
     </section>
+
+    <div class="modal" id="projectModal" aria-hidden="true">
+      <div class="modal__backdrop" data-close></div>
+      <div class="modal__panel" role="dialog" aria-modal="true">
+        <button class="modal__close" data-close aria-label="Cerrar">✕</button>
+        <div class="modal__gallery">
+          <button class="modal__nav modal__nav--prev" data-prev aria-label="Imagen anterior">‹</button>
+          <img class="modal__image" id="modalImage" src="" alt="">
+          <p class="modal__placeholder" id="modalPlaceholder" hidden>sin capturas todavía</p>
+          <button class="modal__nav modal__nav--next" data-next aria-label="Imagen siguiente">›</button>
+          <div class="modal__dots" id="modalDots"></div>
+        </div>
+        <div class="modal__body">
+          <h3 class="modal__title" id="modalTitle"></h3>
+          <p class="modal__stack" id="modalStack"></p>
+          <div class="modal__desc" id="modalDesc"></div>
+          <a class="btn" id="modalLink" href="#" target="_blank" rel="noopener">visitar sitio ↗</a>
+        </div>
+      </div>
+    </div>
 
     <div class="banner">
       <p class="banner__text">PENSADO PARA <span class="script">VER</span>, CONSTRUIDO PARA <span class="script">DURAR</span></p>
