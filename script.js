@@ -31,7 +31,13 @@ const projects = {
   "peugeot-promo": {
     title: "Mundial 2026 — Promo Interactiva",
     stack: "HTML5 · CSS3 · JavaScript vanilla · Supabase (PostgreSQL) · Cloudflare Workers · Git/GitHub",
-    images: [],
+    images: [
+      "assets/peugeot-promo-1.jpg",
+      "assets/peugeot-promo-2.jpg",
+      "assets/peugeot-promo-3.jpg",
+      "assets/peugeot-promo-4.jpg",
+      "assets/peugeot-promo-5.jpg",
+    ],
     link: "https://peugeot-promo.camilasylvester.workers.dev",
     descriptionHTML: `
       <p>Plataforma de registro y juego para una campaña promocional de Peugeot Argentina vinculada al Mundial 2026. Los usuarios se registran, patean un penal virtual y duplican sus chances de ganar una experiencia Premium al Norte Argentino.</p>
